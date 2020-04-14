@@ -533,7 +533,8 @@
 					};
 					5B2F47CF1ADFFE8400416A1A = {
 						CreatedOnToolsVersion = 6.3;
-						LastSwiftMigration = 1130;
+						DevelopmentTeam = AM789EPRBN;
+						LastSwiftMigration = 0910;
 					};
 					9EA4AB9B1E099BCE0026FFC2 = {
 						CreatedOnToolsVersion = 8.2;
@@ -1053,6 +1054,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = AM789EPRBN;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1071,6 +1073,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = AM789EPRBN;
 				INFOPLIST_FILE = "SwiftR iOS Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adamhartford.$(PRODUCT_NAME:rfc1034identifier)";
@@ -1097,7 +1100,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1116,7 +1119,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adamhartford.SwiftR-Mac-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
